@@ -1,0 +1,429 @@
+//TÍTULO: _headers.scss
+//DESCRIÇÃO: folha de estilo a ser aplicada em todos os headers do site
+
+
+/* Variáveis Globais */
+	
+	$tamanho-logo-base:25vw;
+
+
+// #header-index corrensponde ao header de index.php 
+	
+	header#header-index{
+
+		// 1. PAINEL index.php
+				
+			position:relative;	
+
+			/* Retirando os padding para permitir a imagem do painel ocupasse do espaço do containeri */
+			
+			.container-fluid{
+				
+				padding:0;
+
+				/*exigindo que a imagem da abertura fique inteiramente no container*/
+				
+				#painel{
+					width: 100%;
+				} 
+			}	
+
+	}/* END of header#header-index */
+
+	
+
+	
+
+// características gerais de um header
+	
+	header{
+			
+			
+
+
+			.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus{
+				outline:none;
+			}
+			
+			.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default{
+				background:transparent;
+				color:white;
+				border:1px solid white;
+			}
+
+			.btn-default{
+				color: white;
+				background-color: transparent;
+				border-color: #CCC;
+				border: 1px solid white;
+
+			} 
+
+
+			.btn-responsive{
+				line-height: 1.618em;
+				padding:0.382em;
+				font-size:1em;
+				font-family: raleway;
+				font-weight: 600;
+			}
+
+			/* @media (max-width: 450px) {
+			  .btn-responsive {
+			    padding:0px;
+				font-size: 60%;
+			    border-radius:3px;
+			  }
+			}
+			
+			@media (min-width: 400px) and (max-width: 450px) {
+			  .btn-responsive {
+			    padding:0px;
+				font-size: 70%;	
+			    border-radius:3px;
+			  }
+			}
+
+
+			@media (min-width: 450px)and (max-width: 768px) {
+			  .btn-responsive {
+			    padding:0px;
+				font-size: 80%;
+			    border-radius:3px;
+			  }
+			}
+
+			@media (min-width: 769px) and (max-width: 992px) {
+			  .btn-responsive {
+			    padding: 0px;
+				font-size: 95%;
+			  }
+			} */
+
+	// 2. Logo e navegação
+		
+		.wrap{
+			
+			/* Impedindo que o header cresça mais do que o tamanho da tela */
+			width: 100%;
+			max-width:100%;	
+			width:95%;
+			padding:0.618em 0;
+			position:absolute; 
+			top:0px;
+			left:50%;
+			@include transform(translate(-50%, 0px)); 
+			
+			
+
+			.container{
+									
+				.box{
+					
+
+					/* Fazendo a distribuição da logo e da navegação */
+
+					@include display-flex;
+					@include justify-content(space-between);
+					
+
+					#logo{
+
+						
+
+						padding-left:0;
+						
+						/* Tamanho da logo */
+						@media screen and (min-width:900px){
+							width:0.75*$tamanho-logo-base;							
+						}	
+
+						@media screen and (min-width:501px) and (max-width:900px){
+							width:$tamanho-logo-base*0.80;
+						}
+
+						@media screen and (max-width:500px){
+							
+							width:$tamanho-logo-base*1;
+						}
+
+					}	
+
+				
+
+					nav{						
+
+						a{
+							color:white;
+
+
+						}
+												
+						/* Tablet e smartphone */
+						@media(max-width:990px){
+							/* Shrink to fit  */
+							li{
+								font-size: 15px;
+							}
+
+
+
+							.facebook{
+								margin-left:31%;
+								
+								
+							}
+							
+							.fa-2x{
+								font-size: 2em;
+							}
+
+
+							
+
+
+						}
+
+						/* Desktop Médios*/	
+						@media(min-width:990px) and (max-width:1200px){
+							width:68%;
+							
+							a{
+								font-size: 14px;
+							}
+	
+							
+						}
+	
+						/* Desktop Grandes*/	
+						@media(min-width:1200px){
+							width:63%;
+							
+						}	
+
+						@include display-flex;
+						@include align-items(center);
+						@include justify-content(flex-end);
+
+						/* Navegação tela grande */
+						.desktop{	
+							width:100%;
+
+							ul{
+								@include display-flex;
+								@include justify-content(space-between);
+								@include align-items(center);
+							
+								li{
+								    font-size: 16px;
+								    /* font-variant: small-caps; */
+								}								
+							}
+						
+						}/* END .desktop */
+						
+						/* Navegação telas pequenas */
+						.portables{
+							
+							
+
+							.header{
+								@include display-flex;
+								@include justify-content(flex-end);
+								@include align-items(center);	
+
+							}
+
+						}/* END portables */
+						
+
+					}/* END nav */
+
+				
+				}/* END .box */
+
+			}/* END .container */
+
+			
+		
+		}/* END wrap */
+		
+
+		
+	}/* END head */	
+
+
+
+	// 3. Classes auxiliares
+	
+	
+	.fixed{
+			position:fixed !important;
+			z-index:1;
+			background: $menu;
+			/* @include opacity(0.95); */
+			top:0 !important;
+			@include transition-duration(0.25s);
+			font-size:1.1em;
+
+
+			#logo{
+				@include transition-duration(0.4s);
+			
+				/* Tamanho da logo */
+				@media screen and (min-width:901px){
+					width:0.75*0.90*$tamanho-logo-base !important;
+					
+				}	
+
+				@media screen and (min-width:501px) and (max-width:900px){
+					width:$tamanho-logo-base*0.80*0.90 !important;
+				}
+
+				@media screen and (max-width:500px){
+					width:$tamanho-logo-base*1*1.15 !important;
+				}
+			}
+
+			li{
+				
+			}
+
+			nav{
+
+				/* Desktop Médios*/	
+				@media(min-width:990px){
+					
+					width:57%;					
+					
+				}
+				
+
+				@media(min-width:990px) and (max-width:1200px){
+					width:70% !important;
+				}
+			}
+
+		}/* END .fixed */	
+
+
+	header#header-padrao{
+		
+		@include display-flex;
+		@include justify-content(center);
+		top:0px;
+		
+		
+
+
+		.wrap{
+
+
+			width: 100%;
+			background:$menu;
+			position:fixed !important;
+			transform:none;
+			padding:0.618em;
+			left:0;	
+			z-index: 1;
+		}
+
+
+		/* Ajustando tamanho da logo */
+		@media all and (max-width:300px){
+			#logo{
+				$width:7;
+				width:$width/12*100%;
+			}
+		}
+
+		
+		@media all and (min-width:300px) and (max-width:450px){
+			#logo{
+				$width:4;
+				width:$width/12*100%;
+			}
+		}
+		
+
+		@media all and (min-width:450px) and (max-width:550px){
+			#logo{
+				$width:4;
+				width:$width/12*100%;
+			}
+		}
+
+		@media all and (min-width:550px) and (max-width:992px){
+			#logo{
+				$width:3;
+				width:$width/12*100%;
+			}
+		}
+
+		@media all and (min-width:992px){
+			#logo{
+				$width:2;
+				width:$width/12*100%;
+			}
+		}
+
+		
+
+		.fixed{
+			transform:none;
+			@include transition-duration(0.25);
+			
+
+
+
+			@media all and (max-width:300px){
+				#logo{
+					$width:7;
+					width:$width/13*100%;
+				}
+			}
+
+			
+			@media all and (min-width:300px) and (max-width:450px){
+				#logo{
+					$width:6;
+					width:$width/13*100%;
+				}
+			}
+			
+
+			@media all and (min-width:450px) and (max-width:550px){
+				#logo{
+					$width:4;
+					width:$width/13*100%;
+				}
+			}
+
+			@media all and (min-width:550px) and (max-width:992px){
+				#logo{
+					$width:3;
+					width:$width/13*100%;
+				}
+			}
+
+			@media all and (min-width:992px){
+				#logo{
+					$width:2;
+					width:$width/13*100%;
+				}
+			}	
+
+
+		}
+	}
+
+	nav#menu{
+		font-size:inherit;
+	}
+
+		
+
+
+
+	
+	

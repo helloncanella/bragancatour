@@ -1,0 +1,23 @@
+ALGORITMO retorna-arquivos
+
+	OBJETIVO:  a finalidade dessa rotina será de a de retornar um array com o nome de arquivos de um diretório com uma determinada extensão. Seus argumentos serão o diretório e o nome da extensão desejada
+	
+
+	ETAPAS
+
+		1) usando função adequada, armazenar em array o nome de todos os arquivos
+
+			- receber nome de diretório e de extensão
+
+			- fazer busca na pasta usando a função scandir($) e armazenar em variável com o nome $arquivos
+
+
+		2) A partir do array anterior, criar outro só com extensão desejada
+
+			- criar array vazio $arquivos_extensao
+
+			- [loop] para cada item de $arquivos
+
+				-- [condição] o item em questão tem em seu valor a expressão '$extensao' (que pode ser pdf, jpg)
+
+					--- armazenar item em um novo array

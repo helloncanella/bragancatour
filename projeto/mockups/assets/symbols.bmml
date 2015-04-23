@@ -1,0 +1,82 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1344" measuredH="1679" mockupW="1284" mockupH="1659">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="60" y="20" w="798" h="92" measuredW="798" measuredH="92" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>Navega%E7%E3o</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="307" y="0" w="174" h="92" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="0">
+          <controlProperties>
+            <align>center</align>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>16777215</borderColor>
+            <size>72</size>
+            <state>up</state>
+            <text>Logo</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="30" w="189" h="32" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="0">
+          <controlProperties>
+            <align>center</align>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>16777215</borderColor>
+            <size>20</size>
+            <state>up</state>
+            <text>Pr%F3ximos%20Destinos</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="502" y="30" w="138" h="32" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="0">
+          <controlProperties>
+            <align>center</align>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>16777215</borderColor>
+            <size>20</size>
+            <state>up</state>
+            <text>Quem%20Somos</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="210" y="30" w="77" h="32" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="0">
+          <controlProperties>
+            <align>center</align>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>16777215</borderColor>
+            <size>20</size>
+            <state>up</state>
+            <text>%C1lbum</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="660" y="30" w="138" h="32" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="0">
+          <controlProperties>
+            <align>center</align>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>16777215</borderColor>
+            <size>20</size>
+            <state>up</state>
+            <text>Fale%20Conosco</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="1" controlTypeID="__group__" x="60" y="80" w="1284" h="1599" measuredW="1284" measuredH="1599" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>browser_parte_baixo</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="1284" h="542" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="1">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <borderStyle>squareBreaklineTop</borderStyle>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="150" w="1284" h="1449" measuredW="1284" measuredH="1449" zOrder="1" locked="false" isInGroup="1">
+          <controlProperties>
+            <crop>0%2C360%2C1000%2C640</crop>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1284" h="2264" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="1"/>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,96 @@
+/*
+Error: Undefined mixin 'transform'.
+        on line 115 of F:/Dropbox/XAMPP/htdocs/bragancaTour/sass/_headers.scss, in `transform'
+        from line 115 of F:/Dropbox/XAMPP/htdocs/bragancaTour/sass/_headers.scss
+
+110: 			width:95%;
+111: 			padding:0.618em 0;
+112: 			position:absolute; 
+113: 			top:0px;
+114: 			left:50%;
+115: 			@include transform(translate(-50%, 0px)); 
+116: 			
+117: 			
+118: 
+119: 			.container{
+120: 									
+
+Backtrace:
+F:/Dropbox/XAMPP/htdocs/bragancaTour/sass/_headers.scss:115:in `transform'
+F:/Dropbox/XAMPP/htdocs/bragancaTour/sass/_headers.scss:115
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:348:in `visit_mixin'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `map'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `map'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:8:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/engine.rb:268:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:293:in `watch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-1.0.3/bin/compass:30
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-1.0.3/bin/compass:44:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/compass-1.0.3/bin/compass:44
+C:/Ruby187/bin/compass:23:in `load'
+C:/Ruby187/bin/compass:23
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'transform'.\A         on line 115 of F:/Dropbox/XAMPP/htdocs/bragancaTour/sass/_headers.scss, in `transform'\A         from line 115 of F:/Dropbox/XAMPP/htdocs/bragancaTour/sass/_headers.scss\A \A 110: 			width:95%;\A 111: 			padding:0.618em 0;\A 112: 			position:absolute; \A 113: 			top:0px;\A 114: 			left:50%;\A 115: 			@include transform(translate(-50%, 0px)); \A 116: 			\A 117: 			\A 118: \A 119: 			.container{\A 120: 									"; }

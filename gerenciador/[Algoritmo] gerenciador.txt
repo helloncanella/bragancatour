@@ -1,0 +1,58 @@
+ALGORITMO exibicao.php
+
+	-- Inicia função para o uso de superglobais $_SESSION (variáveis globais que permite o uso dos valores armazenados em várias páginas).
+
+	-- Abra banco de dados
+
+	-- Coletar em array $_SESSION dados dos POST
+
+		--- fazer loop em FILES e POST
+		--- executar esse bloco apenas se o botão "gerar passeio" não foi clicada
+
+
+	-- Impresão foi verificada (botão submit foi clicado)?
+
+		Sim - passo 2.
+		Não - Imprime dados.
+
+	-- Leitura do arquivo de fotos.
+	
+		--- fazer isso em arquivo a parte
+		--- armazenar conteúdo em $_SESSION['foto_']; 	
+
+	-- Armazenar conteúdo de $_POST em $_SESSION	
+
+	-- Dentro do bloco de inserção, tomar o nome de todas as colunas existente no banco de dados.
+
+		--- para efeito de verificação, imprimir
+
+	-- rodar um loop por todo o SESSION, caso haja alguma chave associativa com o mesmo no de uma das tabelas, usa -la para compor a declaração da query
+
+		--- compor uma string para coluna
+
+			---- imprimir $coluna
+
+		--- compor uma string para valores
+
+			---- imprimir $valores
+
+	-- Elaborar declaração da query 
+
+	4 -- Armazenar dados banco de dados e verficar se não há erros
+	
+	5 -- Imprimir mensagem de sucesso.
+	6 -- Fechar banco
+	7 --
+	8 --
+	9 --
+	10 --
+	11 --
+	12 --
+	13 --
+	14 --
+	15 --
+	16 --
+	17 --
+	18 --
+	19 --
+	20 --

@@ -1,0 +1,15 @@
+gerenciador
+
+	- index.php (pagina de login)
+	- login
+		- engine.php
+	- insercao-passeio
+		- formulario.php
+		- confirmacao.php
+		- insercao.php
+		- [Algoritmo] insercao.php	
+		- js
+			- jquery.mask.min.js (maskara)
+			- script auxiliar.js	
+
+		

@@ -1,0 +1,19 @@
+20150301T134823: bragancatour.com/phpmyadmin/index.php
+PHP Fatal error:  require(): Failed opening required './libraries/plugins/auth/swekey/swekey.auth.lib.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/bosnaweb09a/b623/ipg.helloncanella/phpmyadmin/libraries/plugins/auth/AuthenticationCookie.class.php on line 29
+
+20150301T134825: bragancatour.com/phpmyadmin/index.php
+PHP Fatal error:  require(): Failed opening required './libraries/plugins/auth/swekey/swekey.auth.lib.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/bosnaweb09a/b623/ipg.helloncanella/phpmyadmin/libraries/plugins/auth/AuthenticationCookie.class.php on line 29
+
+20150301T134827: bragancatour.com/phpmyadmin/index.php
+PHP Fatal error:  require(): Failed opening required './libraries/plugins/auth/swekey/swekey.auth.lib.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/bosnaweb09a/b623/ipg.helloncanella/phpmyadmin/libraries/plugins/auth/AuthenticationCookie.class.php on line 29
+
+20150301T134828: bragancatour.com/phpmyadmin/index.php
+PHP Fatal error:  require(): Failed opening required './libraries/plugins/auth/swekey/swekey.auth.lib.php' (include_path='.:/usr/local/lib/php-5.3.13/lib/php') in /hermes/bosnaweb09a/b623/ipg.helloncanella/phpmyadmin/libraries/plugins/auth/AuthenticationCookie.class.php on line 29
+
+20150306T001239: ftp.bragancatour.com/webint/index.php
+PHP Warning:  rmdir(/hermes/bosnaweb09a/b623/ipg.helloncanella//backup): Directory not empty in /hermes/bosnaweb09a/b623/ipg.helloncanella/webint/system/classes/Filesystem.php on line 70
+PHP Warning:  rmdir(/hermes/bosnaweb09a/b623/ipg.helloncanella//css): Directory not empty in /hermes/bosnaweb09a/b623/ipg.helloncanella/webint/system/classes/Filesystem.php on line 70
+
+20150306T001247: ftp.bragancatour.com/webint/index.php
+PHP Warning:  rmdir(/hermes/bosnaweb09a/b623/ipg.helloncanella//css): Directory not empty in /hermes/bosnaweb09a/b623/ipg.helloncanella/webint/system/classes/Filesystem.php on line 70
+

@@ -1,0 +1,1150 @@
+@charset "UTF-8";
+/* line 5, ../../../../../.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Cores */
+/* Impedindo o aparecimento de bordas naquilo que já foi clicado */
+/* line 17, ../sass/_base.scss */
+a:focus {
+  outline: none !important;
+}
+
+/* Ícone facebook - Font Awesome */
+/* line 27, ../sass/_base.scss */
+.fa-lg {
+  font-size: 1.618em;
+}
+
+/* line 31, ../sass/_base.scss */
+.fa-2x {
+  font-size: 2.4em;
+}
+
+/* body{
+	width:100%; 
+} */
+/* main todos-passeios.php e passeio.php*/
+/* line 41, ../sass/_base.scss */
+body#todos-passeios main, body#passeio main {
+  margin-top: 6.85em;
+}
+
+/*Declarando fontes*/
+/*Font-family:Sanelma*/
+@font-face {
+  font-family: 'sanelma';
+  src: url("../fonts/sanelma/sanelma-webfont.eot");
+  src: url("../fonts/sanelma/sanelma-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sanelma/sanelma-webfont.woff2") format("woff2"), url("../fonts/sanelma/sanelma-webfont.woff") format("woff"), url("../fonts/sanelma/sanelma-webfont.ttf") format("truetype"), url("../fonts/sanelma/sanelma-webfont.svg#sanelmaregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*Font-family: Helvetica Roman*/
+@font-face {
+  font-family: 'helvetica';
+  src: url("../fonts/helvetica/HelveticaLTStd-Roman_gdi.eot");
+  src: url("../fonts/helvetica/HelveticaLTStd-Roman_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica/HelveticaLTStd-Roman_gdi.woff") format("woff"), url("../fonts/helvetica/HelveticaLTStd-Roman_gdi.ttf") format("truetype"), url("../fonts/helvetica/HelveticaLTStd-Roman_gdi.otf") format("opentype"), url("../fonts/helvetica/HelveticaLTStd-Roman_gdi.svg#HelveticaLTStd-Roman") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA;
+}
+/*Font-family: raleway*/
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway/raleway-Regular-webfont.eot");
+  src: url("../fonts/raleway/raleway-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway/raleway-Regular-webfont.woff2") format("woff2"), url("../fonts/raleway/raleway-Regular-webfont.woff") format("woff"), url("../fonts/raleway/raleway-Regular-webfont.ttf") format("truetype"), url("../fonts/raleway/raleway-Regular-webfont.svg#ralewayregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/Raleway-Medium-webfont.eot");
+  src: url("../fonts/Raleway-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway-Medium-webfont.woff2") format("woff2"), url("../fonts/Raleway-Medium-webfont.woff") format("woff"), url("../fonts/Raleway-Medium-webfont.ttf") format("truetype"), url("../fonts/Raleway-Medium-webfont.svg#ralewaymedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway/raleway-SemiBold-webfont.eot");
+  src: url("../fonts/raleway/raleway-SemiBold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway/raleway-SemiBold-webfont.woff2") format("woff2"), url("../fonts/raleway/raleway-SemiBold-webfont.woff") format("woff"), url("../fonts/raleway/raleway-SemiBold-webfont.ttf") format("truetype"), url("../fonts/raleway/raleway-SemiBold-webfont.svg#ralewaysemibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway/raleway-Bold-webfont.eot");
+  src: url("../fonts/raleway/raleway-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway/raleway-Bold-webfont.woff2") format("woff2"), url("../fonts/raleway/raleway-Bold-webfont.woff") format("woff"), url("../fonts/raleway/raleway-Bold-webfont.ttf") format("truetype"), url("../fonts/raleway/raleway-Bold-webfont.svg#ralewaybold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+/* line 89, ../sass/_typography.scss */
+body {
+  font-size: 21px;
+  /* @media screen and (min-width:'') and max (min-width:'') {
+     font-size: 
+  } */
+}
+
+/* line 97, ../sass/_typography.scss */
+h1 {
+  color: #ff9900;
+  font-size: 4.23em;
+  line-height: 1.62em;
+  margin: 0;
+  font-family: sanelma, raleway, 'verdana', 'arial';
+}
+@media screen and (max-width: 264px) {
+  /* line 97, ../sass/_typography.scss */
+  h1 {
+    font-size: 3.0em;
+  }
+}
+
+/* line 108, ../sass/_typography.scss */
+h2 {
+  font-size: 2.23em;
+  line-height: 1.62em;
+  margin: 0px 0px .382em 0px;
+  font-family: "raleway", "verdana", "arial";
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 117, ../sass/_typography.scss */
+h3 {
+  color: #01599d;
+  font-size: 1em;
+  line-height: 1.618em;
+  margin: 0px 0px .382em 0px;
+  font-family: "raleway", "verdana", "arial";
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* line 127, ../sass/_typography.scss */
+h4 {
+  line-height: 1.612em;
+  margin: 0px 0px .382em 0px;
+  font-family: "raleway", "verdana", "arial";
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* line 135, ../sass/_typography.scss */
+p {
+  font-size: 1em;
+  line-height: 1.62em;
+  margin: 0px 0px 1.62em 0px;
+  font-family: "raleway", "verdana", "arial";
+  font-weight: 400;
+  font-style: normal;
+}
+@media screen and (max-width: 350px) {
+  /* line 135, ../sass/_typography.scss */
+  p {
+    font-size: 1em;
+  }
+}
+
+/* line 150, ../sass/_typography.scss */
+li {
+  font-size: 1em;
+  font-family: "raleway", "verdana", "arial";
+  line-height: 1.62em;
+  margin: 0px 0px .382em 0px;
+  /* font-variant: small-caps; */
+}
+
+/* line 158, ../sass/_typography.scss */
+a {
+  font-size: 1em;
+  line-height: 1.62em;
+  margin: 0px 0px 0.382em 0px;
+  font-family: "raleway", "verdana", "arial";
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 170, ../sass/_typography.scss */
+.lead {
+  font-size: 1.62em;
+  line-height: 1.612em;
+  margin: 0px 0px 1.612em 0px;
+}
+
+/* Variáveis Globais */
+/* line 12, ../sass/_headers.scss */
+header#header-index {
+  position: relative;
+  /* Retirando os padding para permitir a imagem do painel ocupasse do espaço do containeri */
+}
+/* line 20, ../sass/_headers.scss */
+header#header-index .container-fluid {
+  padding: 0;
+  /*exigindo que a imagem da abertura fique inteiramente no container*/
+}
+/* line 26, ../sass/_headers.scss */
+header#header-index .container-fluid #painel {
+  width: 100%;
+}
+
+/* END of header#header-index */
+/* line 39, ../sass/_headers.scss */
+header {
+  			/* @media (max-width: 450px) {
+  			  .btn-responsive {
+  			    padding:0px;
+  				font-size: 60%;
+  			    border-radius:3px;
+  			  }
+  			}
+  			
+  			@media (min-width: 400px) and (max-width: 450px) {
+  			  .btn-responsive {
+  			    padding:0px;
+  				font-size: 70%;	
+  			    border-radius:3px;
+  			  }
+  			}
+  
+  
+  			@media (min-width: 450px)and (max-width: 768px) {
+  			  .btn-responsive {
+  			    padding:0px;
+  				font-size: 80%;
+  			    border-radius:3px;
+  			  }
+  			}
+  
+  			@media (min-width: 769px) and (max-width: 992px) {
+  			  .btn-responsive {
+  			    padding: 0px;
+  				font-size: 95%;
+  			  }
+  			} */
+  /* END wrap */
+}
+/* line 44, ../sass/_headers.scss */
+header .btn.active.focus, header .btn.active:focus, header .btn.focus, header .btn.focus:active, header .btn:active:focus, header .btn:focus {
+  outline: none;
+}
+/* line 48, ../sass/_headers.scss */
+header .btn-default.active, header .btn-default.focus, header .btn-default:active, header .btn-default:focus, header .btn-default:hover, header .open > .dropdown-toggle.btn-default {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+/* line 54, ../sass/_headers.scss */
+header .btn-default {
+  color: white;
+  background-color: transparent;
+  border-color: #CCC;
+  border: 1px solid white;
+}
+/* line 63, ../sass/_headers.scss */
+header .btn-responsive {
+  line-height: 1.618em;
+  padding: 0.382em;
+  font-size: 1em;
+  font-family: raleway;
+  font-weight: 600;
+}
+/* line 105, ../sass/_headers.scss */
+header .wrap {
+  /* Impedindo que o header cresça mais do que o tamanho da tela */
+  width: 100%;
+  max-width: 100%;
+  width: 95%;
+  padding: 0.618em 0;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  -moz-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  -webkit-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+  /* END .container */
+}
+/* line 119, ../sass/_headers.scss */
+header .wrap .container {
+  /* END .box */
+}
+/* line 121, ../sass/_headers.scss */
+header .wrap .container .box {
+  /* Fazendo a distribuição da logo e da navegação */
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  /* END nav */
+}
+/* line 130, ../sass/_headers.scss */
+header .wrap .container .box #logo {
+  padding-left: 0;
+  /* Tamanho da logo */
+}
+@media screen and (min-width: 900px) {
+  /* line 130, ../sass/_headers.scss */
+  header .wrap .container .box #logo {
+    width: 18.75vw;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  /* line 130, ../sass/_headers.scss */
+  header .wrap .container .box #logo {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 130, ../sass/_headers.scss */
+  header .wrap .container .box #logo {
+    width: 25vw;
+  }
+}
+/* line 154, ../sass/_headers.scss */
+header .wrap .container .box nav {
+  /* Tablet e smartphone */
+  /* Desktop Médios*/
+  /* Desktop Grandes*/
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  /* Navegação tela grande */
+  /* END .desktop */
+  /* Navegação telas pequenas */
+  /* END portables */
+}
+/* line 156, ../sass/_headers.scss */
+header .wrap .container .box nav a {
+  color: white;
+}
+@media (max-width: 990px) {
+  /* line 154, ../sass/_headers.scss */
+  header .wrap .container .box nav {
+    /* Shrink to fit  */
+  }
+  /* line 165, ../sass/_headers.scss */
+  header .wrap .container .box nav li {
+    font-size: 15px;
+  }
+  /* line 171, ../sass/_headers.scss */
+  header .wrap .container .box nav .facebook {
+    margin-left: 31%;
+  }
+  /* line 177, ../sass/_headers.scss */
+  header .wrap .container .box nav .fa-2x {
+    font-size: 2em;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  /* line 154, ../sass/_headers.scss */
+  header .wrap .container .box nav {
+    width: 68%;
+  }
+  /* line 191, ../sass/_headers.scss */
+  header .wrap .container .box nav a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 154, ../sass/_headers.scss */
+  header .wrap .container .box nav {
+    width: 63%;
+  }
+}
+/* line 209, ../sass/_headers.scss */
+header .wrap .container .box nav .desktop {
+  width: 100%;
+}
+/* line 212, ../sass/_headers.scss */
+header .wrap .container .box nav .desktop ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 217, ../sass/_headers.scss */
+header .wrap .container .box nav .desktop ul li {
+  font-size: 16px;
+  /* font-variant: small-caps; */
+}
+/* line 230, ../sass/_headers.scss */
+header .wrap .container .box nav .portables .header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* END head */
+/* line 260, ../sass/_headers.scss */
+.fixed {
+  position: fixed !important;
+  z-index: 1;
+  background: #00bdd6;
+  /* @include opacity(0.95); */
+  top: 0 !important;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  font-size: 1.1em;
+}
+/* line 270, ../sass/_headers.scss */
+.fixed #logo {
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  /* Tamanho da logo */
+}
+@media screen and (min-width: 901px) {
+  /* line 270, ../sass/_headers.scss */
+  .fixed #logo {
+    width: 16.875vw !important;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  /* line 270, ../sass/_headers.scss */
+  .fixed #logo {
+    width: 18vw !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 270, ../sass/_headers.scss */
+  .fixed #logo {
+    width: 28.75vw !important;
+  }
+}
+/* line 292, ../sass/_headers.scss */
+.fixed nav {
+  /* Desktop Médios*/
+}
+@media (min-width: 990px) {
+  /* line 292, ../sass/_headers.scss */
+  .fixed nav {
+    width: 57%;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  /* line 292, ../sass/_headers.scss */
+  .fixed nav {
+    width: 70% !important;
+  }
+}
+
+/* END .fixed */
+/* line 310, ../sass/_headers.scss */
+header#header-padrao {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  top: 0px;
+  /* Ajustando tamanho da logo */
+}
+/* line 319, ../sass/_headers.scss */
+header#header-padrao .wrap {
+  width: 100%;
+  background: #00bdd6;
+  position: fixed !important;
+  transform: none;
+  padding: 0.618em;
+  left: 0;
+  z-index: 1;
+}
+@media all and (max-width: 300px) {
+  /* line 334, ../sass/_headers.scss */
+  header#header-padrao #logo {
+    width: 58.33333%;
+  }
+}
+@media all and (min-width: 300px) and (max-width: 450px) {
+  /* line 342, ../sass/_headers.scss */
+  header#header-padrao #logo {
+    width: 33.33333%;
+  }
+}
+@media all and (min-width: 450px) and (max-width: 550px) {
+  /* line 350, ../sass/_headers.scss */
+  header#header-padrao #logo {
+    width: 33.33333%;
+  }
+}
+@media all and (min-width: 550px) and (max-width: 992px) {
+  /* line 357, ../sass/_headers.scss */
+  header#header-padrao #logo {
+    width: 25%;
+  }
+}
+@media all and (min-width: 992px) {
+  /* line 364, ../sass/_headers.scss */
+  header#header-padrao #logo {
+    width: 16.66667%;
+  }
+}
+/* line 372, ../sass/_headers.scss */
+header#header-padrao .fixed {
+  transform: none;
+  -moz-transition-duration: 0.25;
+  -o-transition-duration: 0.25;
+  -webkit-transition-duration: 0.25;
+  transition-duration: 0.25;
+}
+@media all and (max-width: 300px) {
+  /* line 380, ../sass/_headers.scss */
+  header#header-padrao .fixed #logo {
+    width: 53.84615%;
+  }
+}
+@media all and (min-width: 300px) and (max-width: 450px) {
+  /* line 388, ../sass/_headers.scss */
+  header#header-padrao .fixed #logo {
+    width: 46.15385%;
+  }
+}
+@media all and (min-width: 450px) and (max-width: 550px) {
+  /* line 396, ../sass/_headers.scss */
+  header#header-padrao .fixed #logo {
+    width: 30.76923%;
+  }
+}
+@media all and (min-width: 550px) and (max-width: 992px) {
+  /* line 403, ../sass/_headers.scss */
+  header#header-padrao .fixed #logo {
+    width: 23.07692%;
+  }
+}
+@media all and (min-width: 992px) {
+  /* line 410, ../sass/_headers.scss */
+  header#header-padrao .fixed #logo {
+    width: 15.38462%;
+  }
+}
+
+/* line 420, ../sass/_headers.scss */
+nav#menu {
+  font-size: inherit;
+}
+
+/* line 1, ../sass/_footer.scss */
+#footer {
+  top: 3.5vw;
+  position: relative;
+}
+/* line 9, ../sass/_footer.scss */
+#footer a, #footer a:hover, #footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+/* line 14, ../sass/_footer.scss */
+#footer .contato {
+  position: relative;
+  background: #0398e2;
+  width: 100%;
+}
+/* line 17, ../sass/_footer.scss */
+#footer .contato li {
+  list-style: none;
+}
+/* line 22, ../sass/_footer.scss */
+#footer .skyline img {
+  position: relative;
+  top: 0.7em;
+  z-index: -1;
+}
+/* line 37, ../sass/_footer.scss */
+#footer #smartphone .logo-contato {
+  height: 8em;
+  background: #0398e2;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 46, ../sass/_footer.scss */
+#footer #smartphone .logo-contato ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 63, ../sass/_footer.scss */
+#footer #tablet-desktop {
+  width: 100%;
+  /* END .WRAPPER */
+}
+/* line 66, ../sass/_footer.scss */
+#footer #tablet-desktop ul {
+  margin: 0;
+}
+/* line 75, ../sass/_footer.scss */
+#footer #tablet-desktop img#skyline {
+  width: 52.8%;
+  position: relative;
+  top: 12px;
+  z-index: -1;
+}
+/* line 84, ../sass/_footer.scss */
+#footer #tablet-desktop .wrapper {
+  width: 100%;
+  background: #0398e2;
+  padding: 1.682em 0;
+}
+@media screen and (max-width: 990px) {
+  /* line 84, ../sass/_footer.scss */
+  #footer #tablet-desktop .wrapper {
+    font-size: 0.57em;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 84, ../sass/_footer.scss */
+  #footer #tablet-desktop .wrapper {
+    font-size: 0.7em;
+  }
+}
+@media screen and (min-width: 1201px) {
+  /* line 84, ../sass/_footer.scss */
+  #footer #tablet-desktop .wrapper {
+    font-size: 0.85em;
+  }
+}
+/* line 103, ../sass/_footer.scss */
+#footer #tablet-desktop .wrapper .container#wrapper-child {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 109, ../sass/_footer.scss */
+#footer #tablet-desktop .wrapper .container#wrapper-child #contato-logo {
+  width: 38.2%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 114, ../sass/_footer.scss */
+#footer #tablet-desktop .wrapper .container#wrapper-child #contato-logo .contato {
+  display: -webkit-flex;
+  display: flex;
+  width: 61.2%;
+}
+/* line 119, ../sass/_footer.scss */
+#footer #tablet-desktop .wrapper .container#wrapper-child #contato-logo .logo {
+  width: 38.2%;
+  margin-left: 0.382em;
+}
+
+/* line 1, ../sass/_instagram-filters.scss */
+.xpro2 {
+  -webkit-filter: contrast(1.3) brightness(0.8) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+  filter: contrast(1.3) brightness(0.8) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+}
+
+/* line 6, ../sass/_instagram-filters.scss */
+.valencia {
+  -webkit-filter: sepia(0.15) saturate(1.5) contrast(0.9);
+  filter: sepia(0.15) saturate(1.5) contrast(0.9);
+}
+
+/* line 11, ../sass/_instagram-filters.scss */
+.brennan {
+  -webkit-filter: sepia(0.5) contrast(1.4);
+  filter: sepia(0.5) contrast(1.4);
+}
+
+/* line 13, ../sass/_instagram-filters.scss */
+.walden {
+  -webkit-filter: sepia(0.35) contrast(0.9) brightness(1.1) hue-rotate(-10deg) saturate(1.5);
+  filter: sepia(0.35) contrast(0.9) brightness(1.1) hue-rotate(-10deg) saturate(1.5);
+}
+
+/* line 19, ../sass/_instagram-filters.scss */
+.toaster {
+  -webkit-filter: sepia(0.4) saturate(2.5) hue-rotate(-30deg) contrast(0.67);
+  -filter: sepia(0.4) saturate(2.5) hue-rotate(-30deg) contrast(0.67);
+}
+
+/* line 24, ../sass/_instagram-filters.scss */
+.sutro {
+  -webkit-filter: brightness(0.75) contrast(1.3) sepia(0.5) hue-rotate(-25deg);
+  filter: brightness(0.75) contrast(1.3) sepia(0.5) hue-rotate(-25deg);
+}
+
+/* line 29, ../sass/_instagram-filters.scss */
+.rise {
+  -webkit-filter: saturate(1.4) sepia(0.25) hue-rotate(-15deg) contrast(0.8) brightness(1.1);
+  filter: saturate(1.4) sepia(0.25) hue-rotate(-15deg) contrast(0.8) brightness(1.1);
+}
+
+/* line 34, ../sass/_instagram-filters.scss */
+.sierra {
+  -webkit-filter: contrast(0.8) saturate(1.2) sepia(0.15);
+  filter: contrast(0.8) saturate(1.2) sepia(0.15);
+}
+
+/* line 39, ../sass/_instagram-filters.scss */
+.nashville {
+  -webkit-filter: sepia(0.4) saturate(1.5) contrast(0.9) brightness(1.1) hue-rotate(-15deg);
+  filter: sepia(0.4) saturate(1.5) contrast(0.9) brightness(1.1) hue-rotate(-15deg);
+}
+
+/* line 44, ../sass/_instagram-filters.scss */
+.mayfair {
+  -webkit-filter: saturate(1.4) contrast(1.1);
+  filter: saturate(1.4) contrast(1.1);
+}
+
+/* line 49, ../sass/_instagram-filters.scss */
+.lofi {
+  filter: contrast(1.4) brightness(0.9) sepia(0.05);
+  -webkit-filter: contrast(1.4) brightness(0.9) sepia(0.05);
+}
+
+/* line 54, ../sass/_instagram-filters.scss */
+.kelvin {
+  filter: sepia(0.4) saturate(2.4) brightness(1.3) contrast(1);
+  -webkit-filter: sepia(0.4) saturate(2.4) brightness(1.3) contrast(1);
+}
+
+/* line 59, ../sass/_instagram-filters.scss */
+.inkwell {
+  -webkit-filter: grayscale(1) brightness(1.2) contrast(1.05);
+  filter: grayscale(1) brightness(1.2) contrast(1.05);
+}
+
+/* line 64, ../sass/_instagram-filters.scss */
+.hudson {
+  -webkit-filter: contrast(1.2) brightness(0.9) hue-rotate(-10deg);
+  filter: contrast(1.2) brightness(0.9) hue-rotate(-10deg);
+}
+
+/* line 69, ../sass/_instagram-filters.scss */
+.hefe {
+  -webkit-filter: contrast(1.3) sepia(0.3) saturate(1.3) hue-rotate(-10deg) brightness(0.95);
+  filter: contrast(1.3) sepia(0.3) saturate(1.3) hue-rotate(-10deg) brightness(0.95);
+}
+
+/* line 74, ../sass/_instagram-filters.scss */
+.earlybird {
+  -webkit-filter: sepia(0.4) saturate(1.6) contrast(1.1) brightness(0.9) hue-rotate(-10deg);
+  filter: sepia(0.4) saturate(1.6) contrast(1.1) brightness(0.9) hue-rotate(-10deg);
+}
+
+/* line 79, ../sass/_instagram-filters.scss */
+.amaro {
+  -webkit-filter: hue-rotate(-10deg) contrast(0.9) brightness(1.1) saturate(1.5);
+  filter: hue-rotate(-10deg) contrast(0.9) brightness(1.1) saturate(1.5);
+}
+
+/* line 84, ../sass/_instagram-filters.scss */
+.filtro-1977 {
+  -webkit-filter: sepia(0.5) hue-rotate(-30deg) saturate(1.2) contrast(0.8);
+  filter: sepia(0.5) hue-rotate(-30deg) saturate(1.2) contrast(0.8);
+}
+
+/* line 89, ../sass/_instagram-filters.scss */
+.mayfair {
+  -webkit-filter: saturate(1.4) contrast(1.1);
+  filter: saturate(1.4) contrast(1.1);
+}
+
+/*  */
+/* line 4, ../sass/index/_section#passeio.scss */
+body#index section#proximos-destinos {
+  line-height: 1em;
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  /* line 8, ../sass/index/_section#passeio.scss */
+  body#index section#proximos-destinos p {
+    font-size: 0.6em !important;
+  }
+}
+@media screen and (min-width: 991px) {
+  /* line 14, ../sass/index/_section#passeio.scss */
+  body#index section#proximos-destinos p {
+    font-size: 0.87em !important;
+  }
+}
+/* line 22, ../sass/index/_section#passeio.scss */
+body#index section#proximos-destinos .passeio p, body#index section#proximos-destinos .passeio h3 {
+  margin-bottom: 0em;
+}
+/* line 29, ../sass/index/_section#passeio.scss */
+body#index section#proximos-destinos .passeio:last-child {
+  margin-bottom: 2.23em;
+}
+@media screen and (max-width: 990px) {
+  /* line 36, ../sass/index/_section#passeio.scss */
+  body#index section#proximos-destinos .passeio:not(:last-child) p:last-child {
+    margin-bottom: 2.23em;
+  }
+}
+/* line 43, ../sass/index/_section#passeio.scss */
+body#index section#proximos-destinos .passeio:last-child p:last-child {
+  margin-bottom: 1em;
+}
+
+/* line 1, ../sass/index/_section#depoimentos.scss */
+body#depoimentos {
+  margin-bottom: 1em;
+}
+
+/* line 1, ../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios {
+  /* end main */
+}
+/* line 3, ../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main {
+  /* Eliminando padding indesejados a fim de alihar todo o conteúdo de main com a caixa 'container' */
+  /* Estilo a ser exibido em tablets e desktops */
+  /* Estilo a ser exibido em telefones celulares */
+}
+/* line 6, ../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main h1, body#todos-passeios main h2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 12, ../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .texto {
+  padding-left: 0;
+}
+/* line 16, ../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .imagem {
+  padding-right: 0;
+}
+/* line 22, ../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .desktop-tablet {
+  margin: 0 0 4.23em 0;
+}
+@media all and (max-width: 990px) {
+  /* line 22, ../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet {
+    margin: 0 0 1.618em 0;
+  }
+}
+@media all and (min-width: 991px) and (max-width: 1200px) {
+  /* line 32, ../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet p {
+    font-size: 0.82em;
+    margin: 0 0 0.09em 0;
+  }
+  /* line 37, ../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet p span {
+    font-weight: 600;
+    font-size: 0.85em;
+  }
+}
+@media all and (min-width: 1201px) {
+  /* line 46, ../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet p {
+    margin: 0 0 0.382em 0;
+  }
+  /* line 50, ../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet span {
+    font-weight: 600;
+    font-size: 0.8em;
+  }
+}
+/* line 64, ../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .mobile h2 {
+  color: #01599d;
+}
+/* line 68, ../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .mobile h2, body#todos-passeios main .mobile h4 {
+  margin-bottom: 0.146em;
+}
+/* line 73, ../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .mobile img {
+  margin: 1em 0 4.23em 0;
+}
+
+/* end body */
+/* line 1, ../sass/passeio/_passeio.scss */
+body#passeio {
+  /* end main */
+}
+/* line 4, ../sass/passeio/_passeio.scss */
+body#passeio main {
+  /* Ajustando espaçamento entre letras */
+  /* Ajustando botão para vários tamanhos */
+  /* botões facebook - aumentar em 1.5x para telas maiores que 890px*/
+  /* Colorindo */
+  /* Aumentando espaçamento */
+  /* Alinhando incone dentro do item da lista */
+  /* Botão de compartilhar + Data do Passeio */
+  /* end #data-facebook */
+}
+/* line 11, ../sass/passeio/_passeio.scss */
+body#passeio main .pluginButton .pluginButtonLabel {
+  letter-spacing: 0.35px;
+}
+@media all and (min-width: 800px) and (max-width: 890px) {
+  /* line 19, ../sass/passeio/_passeio.scss */
+  body#passeio main .fb-like iframe {
+    transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    -o-transform: scale(1) !important;
+    -moz-transform: scale(1) !important;
+  }
+}
+@media all and (min-width: 891px) {
+  /* line 33, ../sass/passeio/_passeio.scss */
+  body#passeio main .fb-like iframe {
+    transform: scale(1.5) translateX(-1.25em) !important;
+    -ms-transform: scale(1.5) !important;
+    -webkit-transform: scale(1.5) translateX(-1.25em) !important;
+    -o-transform: scale(1.5) !important;
+    -moz-transform: scale(1.5) !important;
+  }
+}
+/* line 48, ../sass/passeio/_passeio.scss */
+body#passeio main .fa-check {
+  color: #4baf4e;
+}
+/* line 54, ../sass/passeio/_passeio.scss */
+body#passeio main .fa-times {
+  color: #f44034;
+}
+/* line 58, ../sass/passeio/_passeio.scss */
+body#passeio main .fa-exclamation {
+  color: #f44034;
+}
+/* line 62, ../sass/passeio/_passeio.scss */
+body#passeio main h2 {
+  color: #01599d;
+}
+/* line 66, ../sass/passeio/_passeio.scss */
+body#passeio main .lead {
+  color: gray;
+}
+/* line 72, ../sass/passeio/_passeio.scss */
+body#passeio main .wrapper-carousel, body#passeio main li:last-child, body#passeio main p:last-child {
+  margin-bottom: 2.62em;
+}
+/* line 76, ../sass/passeio/_passeio.scss */
+body#passeio main .lead {
+  margin-bottom: 1em;
+}
+/* line 80, ../sass/passeio/_passeio.scss */
+body#passeio main ul {
+  margin-left: 1.618em;
+}
+/* line 85, ../sass/passeio/_passeio.scss */
+body#passeio main #valores ul, body#passeio main #saidas ul {
+  margin-left: -0.016em;
+}
+/* line 91, ../sass/passeio/_passeio.scss */
+body#passeio main .fa-li {
+  top: .29em;
+}
+/* line 96, ../sass/passeio/_passeio.scss */
+body#passeio main section#avisos-importantes ul {
+  margin-left: 1.175em;
+}
+/* line 102, ../sass/passeio/_passeio.scss */
+body#passeio main #data-facebook {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 1.618em;
+}
+/* line 106, ../sass/passeio/_passeio.scss */
+body#passeio main #data-facebook .lead, body#passeio main #data-facebook p {
+  margin-bottom: 0;
+}
+/* line 110, ../sass/passeio/_passeio.scss */
+body#passeio main #data-facebook .fb-like {
+  position: relative;
+  right: 2.25vw;
+}
+@media all and (max-width: 550px) {
+  /* line 102, ../sass/passeio/_passeio.scss */
+  body#passeio main #data-facebook {
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  /* line 124, ../sass/passeio/_passeio.scss */
+  body#passeio main #data-facebook p.lead, body#passeio main #data-facebook p.fb-like {
+    margin-bottom: 0.618em;
+  }
+}
+@media all and (max-width: 550px) {
+  /* line 135, ../sass/passeio/_passeio.scss */
+  body#passeio main h1 {
+    text-align: center;
+  }
+}
+@media all and (max-width: 387px) {
+  /* line 142, ../sass/passeio/_passeio.scss */
+  body#passeio main h1 {
+    font-size: 3.0em;
+  }
+  /* line 146, ../sass/passeio/_passeio.scss */
+  body#passeio main h2 {
+    font-size: 1.8em;
+  }
+  /* line 150, ../sass/passeio/_passeio.scss */
+  body#passeio main .lead {
+    font-size: 1.2em;
+  }
+}
+@media all and (max-width: 300px) {
+  /* line 156, ../sass/passeio/_passeio.scss */
+  body#passeio main h1 {
+    font-size: 2.5em;
+  }
+  /* line 160, ../sass/passeio/_passeio.scss */
+  body#passeio main h2 {
+    font-size: 1.618em;
+  }
+  /* line 164, ../sass/passeio/_passeio.scss */
+  body#passeio main .lead {
+    font-size: 0.9em;
+  }
+}
+@media all and (max-width: 260px) {
+  /* line 170, ../sass/passeio/_passeio.scss */
+  body#passeio main h1 {
+    font-size: 2em;
+  }
+  /* line 173, ../sass/passeio/_passeio.scss */
+  body#passeio main h2 {
+    font-size: 1.2em;
+  }
+  /* line 177, ../sass/passeio/_passeio.scss */
+  body#passeio main h1, body#passeio main h2, body#passeio main h3 {
+    text-align: center;
+  }
+}
+@media all and (max-width: 400px) {
+  /* line 4, ../sass/passeio/_passeio.scss */
+  body#passeio main {
+    /* 'sumir' com o porque ir.  */
+    /* Centralizar todos os itens à exceção da lista com icones do font-awasome. */
+    text-align: center;
+  }
+  /* line 187, ../sass/passeio/_passeio.scss */
+  body#passeio main section#por-que-ir {
+    display: none;
+  }
+  /* line 194, ../sass/passeio/_passeio.scss */
+  body#passeio main .fa-ul {
+    text-align: justify;
+  }
+}
+
+/* line 1, ../sass/passeio/_cartao.scss */
+.cartao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 7, ../sass/passeio/_cartao.scss */
+.cartao img {
+  height: 5vw;
+}
+@media all and (max-width: 768px) {
+  /* line 7, ../sass/passeio/_cartao.scss */
+  .cartao img {
+    height: 10vw;
+  }
+}
+
+/* line 15, ../sass/passeio/_cartao.scss */
+.img {
+  display: flex;
+}
+
+/* line 20, ../sass/passeio/_cartao.scss */
+.cartao-2 {
+  margin: 0 2%;
+}
+
+/* line 24, ../sass/passeio/_cartao.scss */
+.cartao a {
+  margin-top: 0.618em;
+}

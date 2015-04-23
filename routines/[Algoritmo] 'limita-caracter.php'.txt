@@ -1,0 +1,21 @@
+ALGORITIMO limita-caracter.php
+
+	- OBJETIVO: 
+
+		-- limitar número de caracter exibida no browser, conforme limite estabelecido pelo cliente da função
+
+		-- recebe como argumento o número limite de caracter e a string a ser 'esfacelada'
+
+
+	- PASSOS
+
+		-- receber número limite e string a ser fatiada
+
+		-- criar array para nova-string
+
+		-- como a string é um vetor, fazer loop até o limite de caracteres estabelecido pelo cliente.
+
+			--- adicionar valor do novo caracter ao da sequência de caracter das iterações anteriores e armazená-la novamente.
+
+		-- ao fim do loop retornar nova-string acrescida de reticênciasl  
+

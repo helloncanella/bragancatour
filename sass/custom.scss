@@ -1,0 +1,14 @@
+//TÍTULO: custom.css
+//DESCRICÃO: compilação de todas as folhas de estilos utilizadas no site
+//IMPORTANTE: 
+
+@import 'base';
+@import 'typography';
+@import 'headers';
+@import 'footer';
+@import 'instagram-filters';
+@import 'index/section#passeio';
+@import 'index/section#depoimentos';
+@import 'todos-passeios/todos-passeios';
+@import 'passeio/passeio'; 
+@import 'passeio/cartao'; 

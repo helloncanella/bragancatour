@@ -1,0 +1,204 @@
+body#passeio{
+	
+
+	main{
+		
+		//Comentário
+
+		//Botão facebook
+		
+			/* Ajustando espaçamento entre letras */
+			.pluginButton .pluginButtonLabel {
+	  				letter-spacing: 0.35px;
+			} 
+
+			/* Ajustando botão para vários tamanhos */
+				//.fb-like é classe do botão 'like'
+			@media all and (min-width: 800px) and (max-width: 890px){
+				
+				.fb-like iframe{
+					
+					transform: scale(1.0) !important;
+					-ms-transform: scale(1.0)  !important;
+					-webkit-transform: scale(1.0) !important;
+					-o-transform: scale(1.0)  !important; 
+					-moz-transform: scale(1.0) !important;  
+			 
+				}
+			}	
+			
+
+			/* botões facebook - aumentar em 1.5x para telas maiores que 890px*/ 
+			@media all and (min-width: 891px){
+				.fb-like iframe{
+					
+					transform: scale(1.5) translateX(-1.25em) !important;
+					-ms-transform: scale(1.5)  !important;
+					-webkit-transform: scale(1.5) translateX(-1.25em) !important;
+					-o-transform: scale(1.5)  !important; 
+					-moz-transform: scale(1.5) !important;  
+			 
+				}
+				
+			}
+
+
+
+		/* Colorindo */		
+		.fa-check{ 
+			color:hsl(122, 40%, 49%);
+		}
+
+ 
+
+		.fa-times {
+			color:hsl(4, 90%, 58%);
+		}
+
+		.fa-exclamation{
+			color:hsl(4, 90%, 58%);
+		}
+		
+		h2{
+			color: #01599d;
+		}
+
+		.lead{
+			color: hsl(0, 0%, 50%);
+		}
+		
+
+		/* Aumentando espaçamento */
+		.wrapper-carousel, li:last-child, p:last-child {
+			margin-bottom:2.62em; 
+		}
+
+		.lead{
+			margin-bottom:1em;
+		}
+
+		ul{
+			margin-left:1.618em;
+		}
+
+		#valores, #saidas{
+			ul{
+				margin-left: -0.016em;
+			}
+		}
+		
+		/* Alinhando incone dentro do item da lista */
+		.fa-li{
+			top: .29em;
+		}
+
+		section#avisos-importantes{
+			ul{
+				margin-left:1.175em;
+			}
+		}
+
+		/* Botão de compartilhar + Data do Passeio */
+		#data-facebook{
+			@include display-flex;
+			@include align-items(center);
+			@include justify-content(space-between);
+			.lead, p{
+				margin-bottom: 0;
+			}
+
+			.fb-like{
+				//Alinhando elemento com a grid
+				position: relative;
+				right: 2.25vw;
+			}
+			
+			margin-bottom: 1.618em;
+			
+			@media all and (max-width:550px){
+				
+				@include justify-content(center);
+				@include flex-direction(column);
+
+
+				p.lead, p.fb-like{
+					margin-bottom: 0.618em;
+				}
+
+			}	
+
+		}/* end #data-facebook */
+
+		//Ajustando fontes
+		@media all and (max-width:550px){
+
+			h1{
+				text-align:center;
+			}		
+				  
+		}
+
+		@media all and (max-width:387px){
+			h1{
+				font-size:3.0em;
+			}
+			
+			h2{
+				font-size:1.8em;
+			}	
+
+			.lead{
+				font-size:1.2em;
+			}
+		}
+
+		@media all and (max-width:300px){
+			h1{
+				font-size:2.5em;
+			}
+
+			h2{
+				font-size:1.618em;
+			}
+
+			.lead{
+				font-size:0.9em;
+			}
+		}
+
+		@media all and (max-width:260px){
+			h1{
+				font-size:2em;
+			}
+			h2{
+				font-size:1.2em;
+			}
+
+			h1,h2,h3{
+				text-align:center;
+			}
+			
+			
+		}
+
+		@media all and (max-width:400px){
+			
+			/* 'sumir' com o porque ir.  */
+			section#por-que-ir{
+				display:none;
+			}
+
+			/* Centralizar todos os itens à exceção da lista com icones do font-awasome. */	
+			text-align:center;
+			
+			.fa-ul{
+				text-align:justify;
+			}
+		}
+
+	
+	}/* end main */
+	
+	
+
+}

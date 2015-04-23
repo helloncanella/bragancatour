@@ -1,0 +1,78 @@
+body#todos-passeios{
+	
+	main{
+
+		/* Eliminando padding indesejados a fim de alihar todo o conteúdo de main com a caixa 'container' */
+		h1,h2{
+			padding-left:0;
+			padding-right:0;
+
+		}
+
+		.texto{
+			padding-left:0;
+		}
+
+		.imagem{
+			padding-right:0;
+		}
+
+
+		/* Estilo a ser exibido em tablets e desktops */
+		.desktop-tablet{
+			
+			margin:0 0 4.23em 0;
+
+			@media all and (max-width:990px){
+				margin: 0 0 1.618em 0;
+			}
+
+				
+			@media all and (min-width:991px) and (max-width:1200px){
+				p{
+					font-size: 0.82em;
+					margin: 0 0 0.09em 0;;
+				
+					
+					span{
+						font-weight:600;
+						font-size:0.85em
+					}
+					
+				}
+			} 
+			
+			@media all and (min-width:1201px){
+				p{
+					margin:0 0 0.382em 0;
+				}
+
+				span{
+						font-weight:600;
+						font-size:0.80em
+					}
+			} 
+			
+		}	
+
+
+
+
+		/* Estilo a ser exibido em telefones celulares */
+		.mobile{
+
+			h2{
+				color: #01599d;
+			}
+
+			h2,h4{
+				margin-bottom: 0.146em;
+			}
+			
+			  
+			img{
+				margin:1em 0 4.23em 0;
+			}
+		}
+	}/* end main */
+}/* end body */

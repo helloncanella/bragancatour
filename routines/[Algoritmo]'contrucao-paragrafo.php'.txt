@@ -1,0 +1,18 @@
+ALGORITMO contrucao-paragrafo.php
+
+
+	OBJETIVO: a finalidade da rotina é receber um uma string e transformá-las em paragrafos, a partir da identificação de quebras de linha
+
+
+	PASSOS
+
+		- receber $string a ser 'pagrafizada' como argumento
+
+		- [condicao] se o padrão 'inicio de linha' for identificado substituí-lo por <p> (íncio de parágrafo em HTML)
+
+		- [condicao]
+ 
+		- [condicao] se o padrão 'fim de linha' for identificado substituí-lo por </p> (íncio de parágrafo em HTML)
+
+		- retornar $string
+

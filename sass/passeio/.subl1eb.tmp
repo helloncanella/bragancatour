@@ -1,0 +1,36 @@
+body#passeio{
+	
+	main{
+
+		h2{
+			color: hsl(187, 100%, 42%);
+		}
+		
+		.wrapper-carousel, li:last-child, p:last-child {
+			margin-bottom:2.62em; 
+		}
+
+		.lead{
+			margin-bottom:1em;
+		}
+
+		ul{
+			margin-left:1.618em;
+		}
+
+		/* Alinhando incone dentro do item da lista */
+		.fa-li{
+			top: .29em;
+		}
+
+		section#avisos-importantes{
+			ul{
+				margin-left:1.175em;
+			}
+		}
+
+
+	
+	}
+
+}

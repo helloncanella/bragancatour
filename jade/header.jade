@@ -1,0 +1,38 @@
+.wrap
+	.container
+		.box
+			//- Logo
+			#logo
+				a(href='index.php')
+					img(src='images/logo.png?version=1').img-responsive
+
+			nav
+				//- Visível em desktop
+				.desktop.visible-md.visible-lg
+					ul
+						li 
+							a(href='index.php') Início
+						li 
+							a(href='todos-passeios.php') Próximos Destinos
+						li 
+							a(href='http://goo.gl/0g6iZf') Álbum
+						li 
+							a(href='#proximos-encontros') Próximos Encontros
+						li 
+							a(href='#fale-conosco') Fale Conosco
+						li 
+							a(href='#quem-somos') Quem Somos
+						li 
+							a(href='http://goo.gl/l1w56f') 
+								i.fa.fa-facebook.facebook.fa-2x
+
+						
+				//- Visível em portáteis (tablet e smartphones)
+				.portables.visible-xs.visible-sm
+					.header
+						a(href='#menu') 
+							button(type='button' class='btn btn-responsive btn-default') opções
+						a(href='http://goo.gl/l1w56f') 
+							i.fa.fa-facebook.facebook.fa-2x
+
+		

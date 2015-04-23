@@ -1,0 +1,5 @@
+Color choosing
+
+	- Avoid color with similar chroma. Opt for those with equal or few steps away from each other.
+
+	- Favor a pallete color with various levels of values. It tends to create a more aesthetically pleasing design. 

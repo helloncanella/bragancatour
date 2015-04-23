@@ -1,0 +1,23 @@
+ALGORITIMO proximos-encontros.php
+
+	- OBJETIVO: 
+
+		-- A finalidade dessa rotina é automatizar a exibição dos 'Próximos Encontros'. 
+
+		-- A regra é a seguinte: ENCONTROS OCORREM MENSALMENTE, NA segunda 2ºFEIRA DO MÊS
+
+
+	- PASSOS
+
+		-- 'Traduzir' as datas para o português (setlocale)
+
+		-- estabelecer zona-horária para o brasil
+
+		-- verificar data hora atual
+
+		-- a indexação do horario atual (em segundos) é menor do que a do que a de 18:00 da segunda 2º feira desse mês?
+
+			--- sim: imprime a data equivalente a segunda 2º feira desse mês
+
+			--- não: imprime a da do mês que vem
+

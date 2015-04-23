@@ -1,0 +1,136 @@
+#footer{
+	
+	top: 3.5vw;
+	position: relative; 
+
+
+	// Aspectos gerais da folha de estilo
+		
+		a, a:hover, a:visited {
+		    color: white;
+		    text-decoration:none;
+		} 
+
+		.contato{
+			position:relative;
+			background:$rodape;
+			li{	list-style:none;}
+			width: 100%;
+		}
+
+		
+		.skyline img{
+			position:relative;
+			top:0.7em;
+			z-index: -1;
+		} 
+
+		
+
+
+
+
+	//Smartphones
+		
+		#smartphone{ 
+			
+			.logo-contato{
+				
+				height:8em;
+				background:$rodape;
+				
+				@include display-flex;
+				@include justify-content(center);
+				@include align-items(center);
+
+				ul{
+					position: absolute;
+					top:50%;
+					left:50%;
+					transform: translate(-50%,-50%);
+
+				}
+
+			}
+
+			
+		
+		}
+
+
+
+	//Tablet em diante
+	#tablet-desktop{
+		
+		
+		ul{
+			margin:0;
+
+			
+		}
+
+		width:100%;
+		
+
+		img#skyline{
+			width: 52.8%; 
+			position:relative;
+			top:12px;
+			z-index:-1;
+		} 
+
+
+
+		.wrapper{
+			width:100%;
+			background:$rodape;
+			padding:1.682em 0;
+
+			@media screen and (max-width: 990px){
+				font-size:0.57em;
+			}
+
+			@media screen and (min-width: 991px) and (max-width: 1200px){
+				font-size:0.7em;
+			}
+
+			@media screen and (min-width: 1201px){
+				font-size:0.85em;;
+			}
+
+						
+			
+			.container#wrapper-child{
+			@include display-flex;
+			@include flex-flow(row wrap);
+			@include justify-content(flex-end);
+			@include align-items(center);
+
+				#contato-logo{
+					width:38.2%;
+					@include display-flex;
+					@include align-items(center);		
+					
+					.contato{
+						@include display-flex;
+						width: 61.2%;
+					}
+
+					.logo{
+						width:38.2%;
+						margin-left:0.382em;
+
+					}
+
+				}
+			}	
+
+
+
+
+		}/* END .WRAPPER */
+	}
+		
+		
+
+}

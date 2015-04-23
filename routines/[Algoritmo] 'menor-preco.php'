@@ -1,0 +1,23 @@
+ALGORITMO menor-preco.php
+
+	OBJETIVO a rotina em questão terá como responsabilidade receber um array com valores de diversos formatos, indentificar qual deles tem o formato de preço, chave com expressão, vista, e identificar qual deles com esse formato possui o menor valor 
+
+
+	PASSOS
+
+		- receber o array 'passeio'
+
+		- criar variável vazia $menor	
+
+		- fazer loop para cada valor do array
+
+				-- [condição] se o valor em questão tiver o formato de preço e descrição da chave com expressão 'vista'(indicativa de preço integral)
+
+						--- [condição] se variável menor tiver vazia ou o valor identificado como 'preço' for menor do que ela
+
+								---- atualizar variável $menor com o valor identificado como preço
+
+		- converte o ponto do variável menor (preço) por vírgula
+								
+		- retornar variável $menor					
+

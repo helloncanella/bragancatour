@@ -1,0 +1,53 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>footer</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="../css/footer.css">
+
+</head>
+<body>
+	
+	<!-- Footer -->
+	<footer id="footer">
+		
+		<div class="container">
+			
+			<!-- Smartphones -->
+			<div id='smartphone' class='visible-xs'> 
+				
+				<!-- Imagem Decorativa - Pontos turísticos -->
+				<div class="row">
+					<div class="col-xs-4 pull-left">
+						<img src="" alt="" class="img-responsive">
+					</div>
+				</div>
+				
+				<!-- Logo e  contato -->
+				<div class="row">
+					<div class="col-xs-4 pull-left">
+						<img src="" alt="" class="img-responsive">
+					</div>	
+				</div>
+			</div><!-- end #smartphone -->
+
+
+		
+		</div>
+
+
+	</footer>
+
+
+</body>
+</html>

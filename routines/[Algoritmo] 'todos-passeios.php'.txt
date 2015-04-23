@@ -1,0 +1,33 @@
+ALGORITMO todos-passeios.php
+
+	OBJETIVO finalidade dessa rotina é orientar o que será escrito pelo browser quando a página de bragancatour.com.br/todos-passeios.php estiver aberta. 
+
+
+	PASSOS
+
+		- Solicitar 10 passeios para proximo-passeio($)
+
+		- armazenar o que foi enviado
+
+		- declarar variável vazia $ano-anterior
+
+		- loop para cada passeio
+
+			-- coletar
+
+				--- ano
+				--- mes
+				--- data-inicio
+				--- data-fim
+
+			-- [condição] Se $ano != $ano-anterior
+
+				--- imprimir a expressão 'Saídas '.$ano
+
+			-- [condição] Se mes $mes != $mes_anterior	
+
+				--- imprimir mes
+
+			-- imprimir box com informações do passeio
+
+			-- atualizar $ano_anterior com o valor de $ano	

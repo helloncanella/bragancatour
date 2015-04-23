@@ -1,0 +1,24 @@
+Estrutura
+
+	- todos os css serão condensados em uma única folha de estilo. Para não haver conflito entre as várias folhas importadas, todas as tag raízes (footer, head, body) devem estar acompanhadas de id identificando a página ou trecho (header ou footer). 
+
+
+
+Recomendações
+
+	
+	- o passeio que sera exibido na primeira pagina será aquele que contem a palavra 'principal' em minusculo
+
+	- o nome da pasta a ser carregado na página de 'Novo Passeio' não pode conter espaços
+
+			exemplo: Passeio - Fernando de Noronha => Nome da Pasta - 'fernando-de-noronha'
+
+	- preferencialmente usar formato de imagem jpg (mais facil de carregar)
+
+	- imagem largura/altura = proporção de ouro (1.618)
+
+	- sugerir ao meu pai bater fotos do lugares onde vai para não necessitar pegar fotos com direitos autorais 
+
+	- ao fazer busca por imagem no google optar preferencialmente por buscar imagens com mais de 4MP 
+
+	- Use fotos com cores que combinem com o site (laranja, verde ou azul). Amarelo tá valendo também.

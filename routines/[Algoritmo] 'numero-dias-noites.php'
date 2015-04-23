@@ -1,0 +1,26 @@
+ALGORITMO numero-dias-noites.php
+
+	- OBJETIVO: 
+
+		--  A finalidade dessa rotina é retornar o número dias e noites de um único. 
+
+		-- Os argumento são: inicio e fim. Respectivamente: data do inicio e fim do passeio
+
+	- PASSOS
+
+		-- numero_dias($,$) 
+
+			--- armazenar data do inicio e fim
+
+			--- calcular o numero de segundos em um dia
+
+			--- calcular o número de dias entre o início e fim
+
+			--- retornar o número de dias
+
+
+		-- numero_noites($,$)
+
+			--- sequência de passos é mesma que a da função anterior
+
+			--- retornar o (número de dias - 1)	

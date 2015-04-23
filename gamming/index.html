@@ -1,0 +1,90 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Document</title>
+  	<script src="script.js"></script>
+  </head>
+  <body id="body">
+		<p id="baby"></p>
+  	 	
+		<script>
+			
+			var canvas = null;
+			var ctx    = null;
+			var fps    = 30;
+			var assets = ['assets/cat-1.jpg',
+			              'assets/cat-2.jpg',
+			              'assets/cat-3.jpg',
+			              'assets/cat-4.jpg',
+			              'assets/cat-5.jpg',
+			              'assets/cat-6.jpg',
+			             ];
+
+			var frames = [];
+			var frame = 0;
+
+			var onImageLoad = function(){
+			    console.log("IMAGE!!!");
+			};
+
+			var setup = function() {
+				body   = document.getElementById('body');
+				baby   = document.getElementById('baby');
+		    canvas = document.createElement('canvas');
+
+		    console.log(baby);	
+
+		    ctx = canvas.getContext('2d');
+		    
+		    canvas.width  = 100;
+		    canvas.height = 100;
+
+		    body.appendChild(canvas);
+
+		    // Load each image URL from the assets array into the frames array 
+		    // in the correct order.
+		    for(i=0; i<assets.length;i++){
+		    	frames.push(new Image());
+					frames[i].onload = onImageLoad();
+					frames[i].src    = assets[i];
+					console.log(frames.src);
+					body.appendChild(frames[i]);
+					
+
+		    }	
+
+
+		    // Afterwards, call setInterval to run at a framerate of 30 frames 
+		    // per second, calling the animate function each time.
+		    
+		    setInterval(function(){ animate() }, 1000/fps);
+			};
+
+			var animate = function(){
+			    // Draw each frame in order, looping back around to the 
+			    // beginning of the animation once you reach the end.
+			    // Draw each frame at a position of (0,0) on the canvas.
+			  	ctx.drawImage(frames[frame],0,0);
+			  	console.log(frames[frame]);
+			   	frame = (frame+1) % frames.length;
+
+			    // Try your code with this call to clearRect commented out
+			    // and uncommented to see what happens!
+			    //
+			    //ctx.clearRect(0,0,canvas.width, canvas.height);
+			  
+			    
+			};
+
+			// We'll call your setup function in our test code, so
+
+			// don't call it in your code.
+			setup();
+
+
+
+		</script>
+
+  </body>
+  </html>

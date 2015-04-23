@@ -1,0 +1,33 @@
+Typography.
+
+	When choosing a webfont, it is important to consider the proposal of the of use of it. Whether it is for
+
+		- Headline
+		- Reading comfortable
+		- Navigation
+		- Readable at small size
+
+	For portable viewport, use units 'rem', 'vw', 'vh'
+
+	Use scale to create responsive design. It maintains the consistency of design over the various viewports.
+
+		Websites and tools
+
+			- modular scale	
+
+	Use large x-height fonts for reading purpose, mainly if it will be used in small sizes. 
+
+	Create a font-stack 
+
+		Websites and tools
+
+			- CSS Font Stack 
+			- ffffalback
+
+
+	Maintain character length of the line between 45 and 75 character
+
+		Websites and tools
+
+			- 45 to 75 character script found at http://goo.gl/BjmbgA
+

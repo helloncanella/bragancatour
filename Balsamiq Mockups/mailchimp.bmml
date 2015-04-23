@@ -1,0 +1,159 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1372" measuredH="1551" mockupW="1280" mockupH="1458">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="92" y="93" w="1280" h="1458" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="433" y="227" w="614" h="1158" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="433" y="227" w="614" h="106" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>48598</borderColor>
+        <color>48598</color>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="464" y="242" w="178" h="76" measuredW="1158" measuredH="559" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../images/logo.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Image" x="485" y="489" w="505" h="311" measuredW="1000" measuredH="618" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../images/fernando-de-noronha/principal.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Title" x="482" y="372" w="-1" h="-1" measuredW="389" measuredH="43" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16750848</color>
+        <text>Fernando%20de%20Noronha</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Canvas" x="432" y="1240" w="616" h="145" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>235746</borderColor>
+        <color>235746</color>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Image" x="515" y="1186" w="458" h="67" measuredW="2331" measuredH="350" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../images/skylinefinal.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="__group__" x="627" y="1321" w="235" h="28" measuredW="235" measuredH="28" zOrder="12" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="29">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>FacebookIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="34" y="0" w="-1" h="-1" measuredW="201" measuredH="28" zOrder="1" locked="false" isInGroup="29">
+          <controlProperties>
+            <color>16777215</color>
+            <size>20</size>
+            <text>Siga-nos%20no%20facebook%21</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="30" controlTypeID="__group__" x="612" y="1291" w="264" h="28" measuredW="264" measuredH="28" zOrder="11" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="3" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="30">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>GMailIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="34" y="0" w="-1" h="-1" measuredW="230" measuredH="28" zOrder="1" locked="false" isInGroup="30">
+          <controlProperties>
+            <color>16777215</color>
+            <size>20</size>
+            <text>bragancatour@gmail.com</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="31" controlTypeID="__group__" x="648" y="1261" w="192" h="28" measuredW="192" measuredH="28" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="2" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="31">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>PhoneDialIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="34" y="0" w="-1" h="-1" measuredW="158" measuredH="28" zOrder="1" locked="false" isInGroup="31">
+          <controlProperties>
+            <color>16777215</color>
+            <size>20</size>
+            <text>%2821%29%203867%20-%209034</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::IconLabel" x="951" y="255" w="-1" h="-1" measuredW="54" measuredH="63" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>16777215</color>
+        <icon>FacebookIcon%7Clarge</icon>
+        <text>facebook</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="__group__" x="481" y="823" w="510" h="273" measuredW="510" measuredH="273" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="4" y="0" w="-1" h="-1" measuredW="140" measuredH="31" zOrder="0" locked="false" isInGroup="38">
+          <controlProperties>
+            <color>88477</color>
+            <size>28</size>
+            <text>Por%20que%20ir%3F</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="30" w="510" h="200" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="38">
+          <controlProperties>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>16777215</borderColor>
+            <size>18</size>
+            <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit.%20Exercitationem%2C%20delectus%20qui%2C%20itaque%20ipsam%20quasi%20dolore%20odio%20quisquam%20fuga%20nam%21%20Repellat%2C%20nulla%20repellendus%2C%20eaque%20perspiciatis%20iure%20ipsa%20ducimus%20libero%20praesentium%2C%20doloribus%20magnam%20omnis%20voluptatem%20eius%20fugiat%20non%20alias%20inventore%20ullam.%20Excepturi%20asperiores%20autem%20laudantium%20illum%2C%20dolorem%20ea%20incidunt%20soluta%20in%20deserunt%2C%20tenetur%20enim%20explicabo%20voluptatem%20dicta%20adipisci%2C%20quia%20nostrum%20fugiat%3F%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="6" y="230" w="-1" h="-1" measuredW="170" measuredH="17" zOrder="2" locked="false" isInGroup="38">
+          <controlProperties>
+            <bold>true</bold>
+            <size>14</size>
+            <text>a%20partir%20de%2012x%20R%24200%2C00</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="397" y="246" w="-1" h="-1" measuredW="112" measuredH="27" zOrder="3" locked="false" isInGroup="38">
+          <controlProperties>
+            <color>40463</color>
+            <size>18</size>
+            <text>+%20Detalhes</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="39" controlTypeID="__group__" x="482" y="438" w="502" h="27" measuredW="502" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="3" w="-1" h="-1" measuredW="252" measuredH="21" zOrder="0" locked="false" isInGroup="39">
+          <controlProperties>
+            <color>6710886</color>
+            <size>18</size>
+            <text>25%20a%2028%20Mai%20%7C%204%20dias%20e%203%20noites</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="318" y="0" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="1" locked="false" isInGroup="39">
+          <controlProperties>
+            <color>2848996</color>
+            <icon>ThumbsUpIcon%7Cxsmall</icon>
+            <size>11</size>
+            <text>Curtir</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="402" y="0" w="-1" h="-1" measuredW="100" measuredH="27" zOrder="2" locked="false" isInGroup="39">
+          <controlProperties>
+            <color>2848996</color>
+            <icon>FacebookIcon%7Cxsmall</icon>
+            <size>10</size>
+            <text>Compartilhar</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

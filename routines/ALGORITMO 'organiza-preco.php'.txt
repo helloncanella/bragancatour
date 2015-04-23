@@ -1,0 +1,76 @@
+ALGORITMO organiza-preco.php
+
+	OBJETIVO: receber como argumento um passeio e organizar valores por categoria
+
+
+	ETAPAS
+
+
+		1) Filtragem das componentes do vetor passeio que tem a expressão 'valor'
+		
+			* OBS: cada variável do banco de dados referente a dinheiro, valor de pacote, deve estar acompanhada com a expressão 'valor'
+
+			* PASSOS	
+
+				- receber variável $passeio como argumento
+
+				- criar array $preco
+
+				- [loop] para cada componente do vetor $passeio (foreach($passeio as $chave => $conteudo))
+
+					-- verificar se $chave (indice da componente) tem o a expressão 'valor em sua descrição'
+
+						--- em caso afirmativo, criar uma componente para o array $preco com o índice da componente igual à $chave e com o conteudo igual variavel $conteudo.
+
+
+		
+		2) com o vetor $preco formado, chega a hora de organiza-lo, de acordo com categorias (categoria_1, categoria_2...)
+			
+			* OBS: o vetor preco retornado deve ter o seguinte aspecto: 
+
+				$preco = array(
+
+					['valor_descricao_1']=>'blablabla',
+					['valor_vista_1']=>'blablabla',
+					['valor_entrada_1']=>'blablabla',
+					
+					['valor_descricao_2']=>'blablabla',
+					['valor_vista_2']=>'blablabla',
+					['valor_entrada_2']=>'blablabla',
+					
+					['valor_descricao_3']=>'blablabla',
+					['valor_vista_3']=>'blablabla',
+					['valor_entrada_3']=>'blablabla',
+
+					.....
+					.....
+					.....			
+
+
+				) 
+
+
+
+			* PASSOS
+
+				- criar vetor vazio $preco_organizado
+
+				- [loop] para cada componente do $preco 
+
+					-- identificar  se o padrão chave é do tipo 'valor_descricao', 'valor_vista', ou 'valor_entrada' e o respectivo indice (1, 2, 3, ...) e armazenar no array $matches (com a ajuda da função pre_match()).
+
+					-- fazer
+
+						--- $indice = $matches[1]
+
+							$caracterizador_preco = $matches[2]
+
+							OBS: $matches[0] corresponde ao padrão identificado por completo
+
+					-- fazer $preco_organizado['categoria_'.$indice][$caracterizador_preco];
+
+					-- calcular valor da parcela e armazena-la no vetor $preco_organizado. Fazê-la da seguinte forma
+
+
+
+

@@ -1,0 +1,47 @@
+@import "compass";
+@import "compass/reset";
+@import "compass/utilities";
+@import "compass/css3";
+@import "compass/css3/transform";
+@import "compass/css3/filter";
+
+/* Cores */
+$rodape: hsl(200, 97%, 45%);
+$h1: hsl(36, 100%, 50%);
+$menu: hsl(187, 100%, 42%);
+$h3: hsl(206, 99%, 31%); 
+
+
+
+/* Impedindo o aparecimento de bordas naquilo que já foi clicado */
+a:focus{
+	outline: none !important;
+}
+
+img{
+	
+}
+
+/* Ícone facebook - Font Awesome */
+
+.fa-lg{
+	font-size: 1.618em;
+}
+
+.fa-2x{
+	font-size: 2.4em;
+}
+
+/* body{
+	width:100%; 
+} */
+
+/* main todos-passeios.php e passeio.php*/
+body#todos-passeios, body#passeio{
+	main{
+		margin-top:6.85em;
+	}
+}
+
+
+// etc.

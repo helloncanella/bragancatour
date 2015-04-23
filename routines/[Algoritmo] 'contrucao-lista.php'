@@ -1,0 +1,22 @@
+ALGORITMO contrucao-lista.php
+
+
+	OBJETIVO: a finalidade da rotina é receber um uma string e transformá-las em listas, a partir da identificação de quebras de linha
+
+
+	PASSOS
+
+		- receber $string a ser 'listizada' e  algum acopanhamento (geralmente script de um glyphicon)[opcional] como argumento
+
+		- criar array de palavras a partir da quebra da lista, utilizando como delimitador a quebra de linha
+
+		[loop] para cada item de do array anterior 
+		
+			- se o item anterior não for vazio
+
+				-- [condicao] se o padrão 'inicio de linha' for identificado substituí-lo por '<li>'.$acompanhamento (íncio de parágrafo em HTML)
+
+				-- [condicao] se o padrão 'fim de linha' for identificado substituí-lo por </li> (íncio de parágrafo em HTML)
+
+				-- retornar $string
+

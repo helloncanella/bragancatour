@@ -1,0 +1,66 @@
+/* line 1, ../../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios {
+  /* end main */
+}
+/* line 3, ../../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main {
+  /* Eliminando padding indesejados a fim de alihar todo o conteúdo de main com a caixa 'container' */
+  /* Estilo a ser exibido em tablets e desktops */
+  /* Estilo a ser exibido em telefones celulares */
+}
+/* line 6, ../../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main h1, body#todos-passeios main h2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 11, ../../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .texto {
+  padding-left: 0;
+}
+/* line 15, ../../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .imagem {
+  padding-right: 0;
+}
+/* line 21, ../../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .desktop-tablet {
+  margin: 0 0 4.23em 0;
+}
+@media all and (max-width: 990px) {
+  /* line 21, ../../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet {
+    margin: 0 0 1.618em 0;
+  }
+}
+@media all and (min-width: 991px) and (max-width: 1200px) {
+  /* line 31, ../../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet p {
+    font-size: 0.82em;
+    margin: 0 0 0.09em 0;
+  }
+  /* line 36, ../../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet p span {
+    font-weight: 600;
+    font-size: 0.85em;
+  }
+}
+@media all and (min-width: 1201px) {
+  /* line 45, ../../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet p {
+    margin: 0 0 0.382em 0;
+  }
+  /* line 49, ../../sass/todos-passeios/_todos-passeios.scss */
+  body#todos-passeios main .desktop-tablet span {
+    font-weight: 600;
+    font-size: 0.8em;
+  }
+}
+/* line 64, ../../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .mobile h2, body#todos-passeios main .mobile h4 {
+  margin-bottom: 0.146em;
+}
+/* line 69, ../../sass/todos-passeios/_todos-passeios.scss */
+body#todos-passeios main .mobile img {
+  margin: 1em 0 4.23em 0;
+}
+
+/* end body */

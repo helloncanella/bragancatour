@@ -1,0 +1,29 @@
+ALGORITIMO proximo-passeio.php
+
+	OBJETIVO finalidade dessa rotina é comportar função, cuja tarefa, recebendo a quantidade de passeios desejadas, buscar segundo esse número, 
+
+
+	PASSOS
+
+		- estabelecer zona-horária para o brasil
+
+		- abrir banco de dados
+
+		- Query
+
+			-- elaborar a seguinte query:
+
+				--- retorne os próximos passeios em número igual à quantidade especificada no argumento da função.
+
+				--- a data dos passeios entregues, devem ser maiores do que a data corrente.	
+
+			--  com a query elaborada, fazer busca em banco de dados, verificando se não houve erros durante o processo.
+
+			-- Armazenar resultado da query em vetor, afim de tornar as informações dos passeios utilizáveis 
+
+
+		- fechar banco de dados
+
+		- retornar vetor
+
+		- 

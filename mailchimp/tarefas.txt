@@ -1,0 +1,14 @@
+- criar html.
+
+- criar pagina mailchimp.scss onde será importado todos os arquivos .scss importantes
+
+	-- RELEVANTES
+
+		--- _base.scss
+		--- _typography
+		--- _headers.scss
+		--- _footer.scss
+		--- _passeio.scss	
+
+
+- acoplar 	

@@ -45,7 +45,7 @@
 						/*Coletando pasta de recursos (imagens e pdf)*/
 						$diretorio=$passeio['pasta_recurso'];
 
-						$imagens=retorna_arquivos('images/'.$diretorio,'jpg|jpeg|png|PNG');
+						$imagens=retorna_arquivos('explorer/files/images/'.$diretorio,'jpg|jpeg|png|PNG');
 
 						/*Coletando imagem com o nome 'principal'*/	
 						foreach ($imagens as $nome_imagem) {
@@ -126,7 +126,7 @@
 							
 							</div><!-- col-sm-7 texto -->
 						
-							<div class="col-sm-5 imagem"><img src='images/<?php echo "$diretorio/$principal" ?>' alt="" class="img-responsive" /></div>
+							<div class="col-sm-5 imagem"><img src='explorer/files/images/<?php echo "$diretorio/$principal" ?>' alt="" class="img-responsive" /></div>
 						
 						</div><!-- end desktop-tablet -->
 
@@ -148,7 +148,7 @@
 
 
 								
-								<a href='passeio.php?id=<?php echo $passeio['passeioID']  ?>'><img src='images/<?php echo "$diretorio/$principal" ?>' alt="" class="img-responsive"></a>
+								<a href='passeio.php?id=<?php echo $passeio['passeioID']  ?>'><img src='explorer/files/images/<?php echo "$diretorio/$principal" ?>' alt="" class="img-responsive"></a>
 <!-- 								<h4 class="text-center">A partir de R$ <?php /*echo menor_preco($passeio);*/ ?></h4>
  -->							</div>
 						</div><!-- Visível somente em celular -->

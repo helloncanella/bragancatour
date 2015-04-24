@@ -255,15 +255,14 @@
 
     <header>
       <div class='container'>
-        <div id="logo"><a href="http://bragancatour.com"><img src="../images/logo.png"></a></div>
-        <div class="facebook"><a href="http://goo.gl/mvbhrM"><img src="../images/facebook.svg?version=1"></a></div>
+        <div id="logo"><a href="http://bragancatour.com"><img src="../explorer/files/images/logo.png"></a></div>
+        <div class="facebook"><a href="http://goo.gl/mvbhrM"><img src="../explorer/files/images/facebook.svg?version=1"></a></div>
       </div>
     </header>
     <main class='container'>
       <h1><?php echo $nome;?></h1>
       <p class="lead"><?php echo imprime_inicio_fim_passeio($inicio,$fim); ?></p>
-      <img id='principal' src="../images/<?php echo $pasta;?>/principal.jpg">
-      <h2>Por que ir?</h2>
+      <img id='principal' src="../explorer/files/images/<?php echo $pasta;?>/principal.jpg">
       <p> <?php echo $por_que_ir; ?></p>
       <p style="font-weight:500">a partir de <?php echo menor_preco($passeio);?></p>
       <button>
@@ -273,7 +272,7 @@
       </button>
     </main>
     <footer>
-      <img id='skyline' src="../images/skylinefinal.png">
+      <img id='skyline' src="../explorer/files/images/skylinefinal.png">
       <div id="contato" >
         <ul class='container'>
           <li id="telefone">(21) 3867-9034</li>

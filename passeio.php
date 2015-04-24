@@ -86,7 +86,7 @@
 		<meta property="og:title"              content="<?php echo $nome; ?>" />
 		<meta property="og:description"        content="Estou pensando em ir. Vamos juntos?" />
 		<meta property="og:type"               content="article" />
-		<meta property="og:image"              content="http://bragancatour.com/images/<?php echo $pasta_recurso ?>/principal.jpg" />
+		<meta property="og:image"              content="http://bragancatour.com/explorer/files/images/<?php echo $pasta_recurso ?>/principal.jpg" />
 		<meta property="og:image:width"        content="470" />
 		<meta property="og:image:height"       content="290" />
 		
@@ -181,7 +181,7 @@
 					
 						<?php
 							
-							$pasta = 'images/'.$passeio['pasta_recurso'];
+							$pasta = 'explorer/files/images/'.$passeio['pasta_recurso'];
 							
 							/*Imprimindo carrossel*/ 	
 							echo carrossel($pasta);
@@ -298,9 +298,9 @@
 											<div class="row">
 												<div class="cartao">
 													<div class="img">
-														<img src="/images/cartao/visa.svg" alt="" title="Visa" class="cartao-1">
-														<img src="/images/cartao/master_card.svg" alt="" title="Master Card" class="cartao-2">
-														<img src="/images/cartao/american_express.svg" alt="" title="American Express" class="cartao-3">
+														<img src="/explorer/files/images/cartao/visa.svg" alt="" title="Visa" class="cartao-1">
+														<img src="/explorer/files/images/cartao/master_card.svg" alt="" title="Master Card" class="cartao-2">
+														<img src="/explorer/files/images/cartao/american_express.svg" alt="" title="American Express" class="cartao-3">
 													</div>
 													<a href="http://goo.gl/jnbCbe">Ver lista completa</a>
 												</div>

@@ -1,0 +1,7 @@
+# Begin password protection #
+AuthName "Área Protegida"
+Require valid-user
+AuthUserFile "/home/users/web/b623/ipg.helloncanella/explorer/.htpasswd"
+AuthType basic
+# End password protection #
+

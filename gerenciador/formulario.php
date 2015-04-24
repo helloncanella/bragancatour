@@ -61,8 +61,8 @@
 			</p>
 
 			<p>
-				<label for="introducao">Introdução* (campanha e-mail)</label>
-				<textarea type="text" class="" name="introducao">
+				<label for="introducao">Introdução* (campanha e-mail)</label><br>
+				<textarea type="text" class="" name="introducao" cols="35" rows="10"></textarea>
 			</p>
 
 			<p>
@@ -93,11 +93,7 @@
 				<input type="text" name="numero_parcelas" id="numero_parcelas" >
 			</p>
 
-			<p>
-				<label for="forma_pagamento">Formas de pagamento*</label>
-				
-				<input type="text" name="forma_pagamento" value="use virgulas" >
-			</p>				
+					
 
 
 			<h4>Modalidade de Preço 1</h4>

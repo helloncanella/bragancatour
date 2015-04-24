@@ -12,7 +12,7 @@
 	<meta property="og:title"              content="Bragança Tour" />
 	<meta property="og:description"        content="Ajudando você a realizar seus sonhos" />
 	<meta property="og:type"               content="article" />
-	<meta property="og:image"              content="http://bragancatour.com/images/fernando-noronha-postal-quality-medium.jpg" />
+	<meta property="og:image"              content="http://bragancatour.com/explorer/files/images/fernando-noronha-postal-quality-medium.jpg" />
 	
 
 </head>
@@ -40,7 +40,7 @@
 
 			<!-- Painel  -->
 			<div class="container-fluid">
-				<img id="painel" class='amaro' src="images/fernando-noronha-postal-quality-medium.jpg"  alt="">
+				<img id="painel" class='amaro' src="explorer/files/images/fernando-noronha-postal-quality-medium.jpg"  alt="">
 			</div>
 
 			<?php include 'include/header.inc'; ?>					
@@ -75,7 +75,7 @@
 					foreach($passeios as $key=>$passeio){
 
 
-						$pasta = 'images/'.$passeio['pasta_recurso'];
+						$pasta = 'explorer/files/images/'.$passeio['pasta_recurso'];
 						
 
 						$nome = $passeio['nome_passeio'];
@@ -128,7 +128,7 @@
 
 						<?php
 
-							$pasta_familia = 'images/familia';
+							$pasta_familia = 'explorer/files/images/familia';
 							echo carrossel($pasta_familia); 
 						?>
 					</div>
